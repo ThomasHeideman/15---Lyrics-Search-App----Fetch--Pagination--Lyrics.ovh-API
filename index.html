@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="../src/image/png"
+      sizes="32x32"
+      href="src/favicon-32x32.png"
+    />
+
+    <title>🎙️🎶 LyricsSearch 🎶🎙️</title>
+  </head>
+  <body>
+    <header>
+      <h1>🎙️LyricsSearch🎙️</h1>
+      <form id="form">
+        <div>
+          <input
+            type="text"
+            id="search"
+            class="search-input"
+            placeholder="Enter artist or songtitle..."
+          />
+          <button class="btn-search">
+            Search
+            <i class="fa fa-search"></i></button
+          ><small id="error">Please type in a search term</small>
+        </div>
+      </form>
+    </header>
+    <div id="result" class="container">
+      <p>Results will be displayed here</p>
+    </div>
+
+    <div id="more" class="container centered"></div>
+
+    <script
+      src="https://kit.fontawesome.com/f347a2f41e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
